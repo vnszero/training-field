@@ -14,7 +14,7 @@
         }
         else
         {
-            if ('a' <= $L and $L <= 'z')
+            if ($L >= 'a' and $L <= 'z')
             {
                 echo $N1+$N2 . PHP_EOL;
             }
