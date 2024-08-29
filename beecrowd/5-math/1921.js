@@ -5,7 +5,11 @@
 function main(lines)
 {
     const N = lines[0]
+
+    /* math definition */
+    // n*(n-3) = number of diagonals
     const wires = N*(N-3)/2
+    
     console.log(`${wires}`)
 }
 
